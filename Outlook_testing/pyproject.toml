@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "outlook_testing"
+version = "0.1.0"
+description = "Sanity tests for Outlook using Playwright and Pytest"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pytest = "^7.4"
+pytest-playwright = "^0.4"
+playwright = "^1.39"
+patchright = "^1.52.5"
+python-dotenv = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+markers = [
+    "sanity: mark a test as a sanity test."
+]
