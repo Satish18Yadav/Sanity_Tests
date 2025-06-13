@@ -8,7 +8,7 @@
 - Outlook_testing -> tests -> test_sanity.py
 
 ## Tasks performed:
-- Login using the .env file, which contains the username and passowrd.
+- Login using the .env file, which contains the username and password.
 - Prompt used: What is Project Bluefin?
 - Writing the prompt on the draft section under "New Email" in Outlook.
 - Then click on the Copilot icon to "Auto-rewrite" for the prompt written in the draft section.
